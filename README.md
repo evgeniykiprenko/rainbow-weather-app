@@ -21,6 +21,8 @@ The application has Info and About tabs. In the Info you may see a short user gu
 
 ![About tab in the application](docs/Picture_4.png)
 
+Also, the application has an installer, so may install/uninstall it like a usual Windows application. The Installer setup is laying in the RainbowAppInstaller folder.<br>
+
 That's it.
 
 
