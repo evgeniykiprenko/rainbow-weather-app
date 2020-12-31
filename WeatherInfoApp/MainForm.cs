@@ -7,15 +7,16 @@ using System.Collections.Generic;
 
 namespace WeatherInfoApp
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        private const string API_ID = "93e630a381c03631e916569a564d36db";
+        // Specify API_ID here (you need an account on https://openweathermap.org/)
+        private const string API_ID = "";
         private OpenWeather.WeatherData CurrentCityWeather;
         private List<OpenWeather.WeatherData> History = new List<OpenWeather.WeatherData>();
         private WebRequest request = null;
 
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -30,10 +31,6 @@ namespace WeatherInfoApp
             }
         }
 
-        /*
-         * The method to handle Enter key
-         * 
-         */
         private async void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar == 13)
