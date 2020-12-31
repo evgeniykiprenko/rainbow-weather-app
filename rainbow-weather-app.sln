@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weather-checker-app", "WeatherInfoApp\weather-checker-app.csproj", "{AD08EB2B-04C4-4AE4-9A8C-53606897C51D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RainbowAppInstaller", "RainbowAppInstaller\RainbowAppInstaller.vdproj", "{E64A03E7-1005-4F3F-A17D-E507CAD4DBCF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD08EB2B-04C4-4AE4-9A8C-53606897C51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD08EB2B-04C4-4AE4-9A8C-53606897C51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD08EB2B-04C4-4AE4-9A8C-53606897C51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD08EB2B-04C4-4AE4-9A8C-53606897C51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E64A03E7-1005-4F3F-A17D-E507CAD4DBCF}.Debug|Any CPU.ActiveCfg = Debug
+		{E64A03E7-1005-4F3F-A17D-E507CAD4DBCF}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50F0896E-7811-4644-ADB2-8CAFB1C71CFF}
+	EndGlobalSection
+EndGlobal
