@@ -147,19 +147,9 @@ namespace WeatherInfoApp
             }
         }
 
-        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void textBox1_MouseHover(object sender, EventArgs e)
         {
             toolTip1.SetToolTip(textBox1, "Enter a city here");
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void infoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -173,11 +163,6 @@ namespace WeatherInfoApp
                             "EXAMPLE 2, type Lviv and hit Ctrl + S to save the result. Then hit Ctrl + O to open saved data." + System.Environment.NewLine + System.Environment.NewLine +
                             "Please refer to the documentation for more details.", 
                             "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void saveToolStripMenuItem_Click_1(object sender, EventArgs e)
@@ -227,30 +212,10 @@ namespace WeatherInfoApp
             return dtDateTime.AddSeconds(unixTimeStamp).ToLocalTime();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void aboutProductToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("The Application was made by Evgeniy Kiprenko." + System.Environment.NewLine + System.Environment.NewLine + 
                 "Email: zhenyakiprenko@gmail.com", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -271,11 +236,6 @@ namespace WeatherInfoApp
             {
                 request.Abort();
             }
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -82,7 +82,6 @@
             this.textBox1.Size = new System.Drawing.Size(297, 40);
             this.textBox1.TabIndex = 1;
             this.textBox1.Tag = "";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             this.textBox1.MouseHover += new System.EventHandler(this.textBox1_MouseHover);
             // 
@@ -109,7 +108,6 @@
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
-            this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
             // openToolStripMenuItem
             // 
@@ -202,7 +200,6 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "City";
             this.label1.Visible = false;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label10
             // 
@@ -216,7 +213,6 @@
             this.label10.TabIndex = 14;
             this.label10.Text = "Time";
             this.label10.Visible = false;
-            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // groupBox2
             // 
@@ -284,7 +280,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Is it a rainbow?";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
