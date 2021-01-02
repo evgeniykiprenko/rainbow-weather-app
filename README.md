@@ -26,9 +26,8 @@ Also, the application has an installer, so may install/uninstall it like a usual
 That's it.
 
 
-## Author :panda_face:
+## Author 🦝
 
 - Name: Evgeniy Kiprenko
 - Email: zhenyakiprenko@gmail.com
-- [LinkedIn](https://www.linkedin.com/in/evgeniy-kiprenko/)
-- [Telegram](https://t.me/Jus7XV)
+- [LinkedIn](https://www.linkedin.com/in/kiprenko/)
